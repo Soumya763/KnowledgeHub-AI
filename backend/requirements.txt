@@ -1,0 +1,19 @@
+# Web Framework
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+
+# Configuration & Logging
+pydantic-settings==2.2.1
+loguru==0.7.2
+python-dotenv==1.0.1
+
+# Database
+sqlalchemy==2.0.28
+aiomysql==0.2.0
+alembic==1.13.1
+
+# Security & Utilities
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+httpx==0.27.0
